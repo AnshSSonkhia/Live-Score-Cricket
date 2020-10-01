@@ -30,7 +30,7 @@ We specifically need 'Cricbuzz' database in the 'pycricbuzz' library which we ar
                  print(cric.livescore(m['id']))
                  print(cric.scorecard(m['id']))
          
-The first print statement 'print(m)' gives the basic matcch details.<br>
+The first print statement 'print(m)' gives the basic match details.<br>
 The conditional statement checks the match status.<br>
 The second print statement 'print(cric.livescore(m['id']))' gives the live scores.<br>
 The second print statement 'print(cric.scorecard(m['id']))' gives the complete scorecard.
